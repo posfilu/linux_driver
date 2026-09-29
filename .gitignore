@@ -1,0 +1,24 @@
+# Kernel module build artifacts
+*.o
+*.ko
+*.mod
+*.mod.c
+*.cmd
+*.a
+*.order
+*.symvers
+*.dwo
+.*.d
+.tmp_versions/
+.cache.mk
+
+# User-space test program binaries (keep sources only)
+*.out
+*.elf
+
+# Editors / OS
+.vscode/
+.idea/
+*.swp
+*~
+.DS_Store
